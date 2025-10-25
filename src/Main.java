@@ -59,7 +59,7 @@ public class Main {
                     System.out.print("Enter number: ");
                     int num = scanner.nextInt();
                     System.out.println(num + (isPrime(num) ? " is prime." : " is not prime."));
-                }
+                }x
                 case 3 -> {
                     System.out.print("Enter number: ");
                     int n = scanner.nextInt();
