@@ -14,4 +14,9 @@ public class paymentMethod {
          this.amount = amount;
      }
 
+     public String getName() {
+         return name;
+         // this return from feature branch
+     }
+
 }
