@@ -17,6 +17,7 @@ public class paymentMethod {
      public String getName() {
          return name;
          // this return from feature branch
+         //this also from feature-branch
      }
 
 }
