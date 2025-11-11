@@ -7,6 +7,7 @@ public class Main {
     public static String reverseString(String input) {
         if (input == null) return null;
         return new StringBuilder(input).reverse().toString();
+
     }
 
     // === Feature 2: Check if Number is Prime ===
@@ -38,7 +39,7 @@ public class Main {
         System.out.println("=== Java All-in-One Feature Demo ===");
 
         while (true) {
-            System.out.println("\nChoose a feature:");
+            System.out.println("\nChoose one feature:");
             System.out.println("1. Reverse a String");
             System.out.println("2. Check Prime Number");
             System.out.println("3. Calculate Factorial");
